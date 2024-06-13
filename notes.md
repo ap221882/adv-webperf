@@ -1,4 +1,6 @@
-# When we hit the URL
+# Notes
+
+## When we hit the URL
 
 1- DNS lookup - 100ms
 2- TCP connection - 120ms
@@ -16,3 +18,7 @@
 
 But,
 LCP Budget is - 2.5 ms
+
+## http
+
+resources- [HTTP Archive](https://httparchive.org)

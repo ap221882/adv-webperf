@@ -22,3 +22,24 @@ LCP Budget is - 2.5 ms
 ## http
 
 resources- [HTTP Archive](https://httparchive.org)
+
+## Resource discovery queue
+
+Cache headers per file
+
+- Absolute expiration date (1.0)
+- Relative expiration date (1.1)
+- More specs/values
+
+Browser needs a resource
+1> It checks the cache
+  A> Cache MISS - we go the network
+  B> Cache HIT
+    i> it's expired
+      conditional request: 1) Not modified (updated cache header) 2) Ok, new file
+    ii> it's not expired
+      we use the file from the cache
+
+But (i) is like requesting the file initially with new HTTP request so what's the solution?
+
+--- bfcache

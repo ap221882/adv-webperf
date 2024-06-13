@@ -43,3 +43,7 @@ Browser needs a resource
 But (i) is like requesting the file initially with new HTTP request so what's the solution?
 
 --- bfcache
+And 
+Service Worker as a middleware
+
+<img width="1438" alt="Screenshot 2024-06-13 at 9 34 14 PM" src="https://github.com/ap221882/adv-webperf/assets/60094012/d931d3be-5e0f-435c-b889-fabdf9d3625f">

@@ -1,4 +1,3 @@
-
 async function load() {
     const response = await fetch("gallery/data.json");
     const data = await response.json();
